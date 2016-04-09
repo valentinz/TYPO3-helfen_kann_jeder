@@ -280,7 +280,7 @@ $TCA['tx_helfenkannjeder_domain_model_organisation'] = array(
 				'type' => 'select',
 				'foreign_class' => 'Tx_Extbase_Domain_Model_FrontendUser',
 				'foreign_table' => 'fe_users',
-				'foreign_table_where' => 'AND fe_users.tx_extbase_type="Tx_Extbase_Domain_Model_FrontendUser"',
+				'foreign_table_where' => '',
 				'items' => array(
 					array('---', 0),
 				),
@@ -387,7 +387,7 @@ $TCA['tx_helfenkannjeder_domain_model_organisation'] = array(
 				'type' => 'select',
 				'foreign_class' => '\\Querformatik\\HelfenKannJeder\\Domain\\Model\\Supporter',
 				'foreign_table' => 'fe_users',
-				'foreign_table_where' => 'AND fe_users.tx_extbase_type="Querformatik\\HelfenKannJeder\\Domain\\Model\\Supporter"',
+				'foreign_table_where' => 'AND fe_users.tx_extbase_type="Querformatik\\\HelfenKannJeder\\\Domain\\\Model\\\Supporter"',
 				'items' => array(
 					array('---', 0),
 				),
